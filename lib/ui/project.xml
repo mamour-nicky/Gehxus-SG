@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="1.0">
+    <name>Gehxus-SG-UI</name>
+    <lvgl_version>9.2</lvgl_version>
+    <resolution_width>320</resolution_width>
+    <resolution_height>240</resolution_height>
+    <color_depth>16</color_depth>
+</project>
