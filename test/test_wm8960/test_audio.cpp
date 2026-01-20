@@ -2,16 +2,7 @@
 #include <Wire.h>
 #include <driver/i2s.h> // Legacy driver compatible with Arduino Framework
 #include <SparkFun_WM8960_Arduino_Library.h>
-
-// --- PIN MAPPING FROM YOUR MASTER LIST ---
-#define I2C_SDA 1
-#define I2C_SCL 7
-
-#define I2S_BCLK 3
-#define I2S_WS   4
-#define I2S_DIN  5   
-#define I2S_DOUT 6   
-#define I2S_MCLK 18
+#include "PinMap.h"
 
 WM8960 codec;
 
